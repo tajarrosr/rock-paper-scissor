@@ -1,0 +1,69 @@
+body {
+  background-color: #1e1e2e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ff007f;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choices {
+  display: flex;
+  gap: 20px;
+}
+.button-move {
+  background: linear-gradient(135deg, #ff007f, #590fb7);
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.button-move:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff007f;
+}
+.icon-move {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.result {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 0 0 10px #ffffff;
+}
+.score {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+.reset-button {
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+.reset-button:hover {
+  background-color: #590fb7;
+  transform: scale(1.05);
+}
