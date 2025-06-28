@@ -1,7 +1,7 @@
 # ✊✋✌️ Rock Paper Scissors
 
 ## 📌 Description
-A simple Rock-Paper-Scissors game using HTML, CSS, and JavaScript. Users play against the computer, and the score updates automatically. The layout is responsive.
+A simple Rock-Paper-Scissors game using HTML, CSS, and JavaScript. Users play against the computer, and the score updates automatically. 
 
 ## 🛠 Tech Stack
 - HTML
